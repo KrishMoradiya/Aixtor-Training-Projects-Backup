@@ -1,0 +1,8 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Dec_15.JDBC;
+import java.sql.*;
+public class JDBC_EmployeeManagement_Demo {
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class.forName("com.mysql.jdbc.driver");
+		Connection con = DriverManager.getConnection("", null, null)
+	}
+}

@@ -1,0 +1,74 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Classes;
+
+import java.util.Scanner;
+
+public class Student {
+	private int id;
+	private int studentId;
+	private String name;
+	private int age;
+	private String gender;
+	private final static String universityName = "Charusat University";
+	private String collageName;
+	
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", studentId=" + studentId + ", name=" + name + ", age=" + age + ", gender="
+				+ gender + ", collageName=" + collageName + "]";
+	}
+	
+	public static String getUniversityname() {
+		return universityName;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getCollageName() {
+		return collageName;
+	}
+	public void setCollageName(String collageName) {
+		this.collageName = collageName;
+	}
+	
+	Scanner sc = new Scanner(System.in);
+	public void setValues() {
+		System.out.println("Enter Id:");
+		id = sc.nextInt();
+		System.out.println("Enter Student ID:");
+		studentId = sc.nextInt();
+		System.out.println("Enter your Name:");
+		name = sc.nextLine();
+		System.out.println("Enter Age:");
+		age = sc.nextInt();
+		System.out.println("Enter Gender:");
+		gender = sc.nextLine();
+		System.out.println("Enter College Name:"+sc.nextLine());
+	}
+}

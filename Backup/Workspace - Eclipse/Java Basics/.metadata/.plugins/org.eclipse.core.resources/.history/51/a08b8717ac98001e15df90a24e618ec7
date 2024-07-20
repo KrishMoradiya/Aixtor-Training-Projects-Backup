@@ -1,0 +1,7 @@
+package com.Aixtor.Krish_Moradiya;
+
+public class Print_Statement {
+	public static void main(String[] args) {
+		
+	}
+}

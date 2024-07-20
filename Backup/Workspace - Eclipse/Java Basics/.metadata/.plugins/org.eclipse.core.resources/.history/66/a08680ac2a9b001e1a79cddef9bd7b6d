@@ -1,0 +1,23 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Set;
+import java.util.*;
+class TreeSetExample1 {
+	public static void main(String[] args) {
+		Collection<Integer> treeLst = new TreeSet<>();
+		Collection<Integer> treeLst2 = new TreeSet<>();
+		
+		treeLst.add(1);
+		treeLst.add(2);
+		treeLst.add(1);
+		treeLst.add(2);
+		treeLst.add(3);
+		treeLst.add(48);
+		treeLst.add(3587);
+		
+		System.out.println(treeLst);
+		System.out.println(setLst); // not duplication, Ordered: Sorted in ordered
+		setLst2.addAll(setLst);
+		System.out.println(setLst2); // not duplication, Ordered: Sorted in ordered
+		setLst.clear();
+		System.out.println(setLst); setLst.addAll(setLst2);
+	}
+}

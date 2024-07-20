@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Program1_Palindrome",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program1_Palindrome",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program2_BubbleSort",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program2_BubbleSort",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program3_BinarySearch",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program3_BinarySearch",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program4_CopyArrayElement",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program4_CopyArrayElement",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program5_DuplicateArrayElement",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program5_DuplicateArrayElement",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program6_DescSorting",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program6_DescSorting",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program7_RemoveWhiteSpace",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program7_RemoveWhiteSpace",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program8_DuplicateCharacter",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program8_DuplicateCharacter",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Program9_SwapTwoString",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Exercise6.Program9_SwapTwoString",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Comments",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.Basics.Comments",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "ExitKeyword",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.Basics.ExitKeyword",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "OperatorPrecedence",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.Basics.OperatorPrecedence",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "SwitchAndIfElse",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.Basics.SwitchAndIfElse",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Variables",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.Basics.Variables",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.ClassLoader.Test",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "MethodsOfStrings",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.OtherDemoes.MethodsOfStrings",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "StringExample",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.OtherDemoes.StringExample",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "SystemClassDemo",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.OtherDemoes.SystemClassDemo",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Test(1)",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.OtherDemoes.Test",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "Print_Statement",
+            "request": "launch",
+            "mainClass": "com.Aixtor.Krish_Moradiya.Print_Statement",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "CovariantReturnType",
+            "request": "launch",
+            "mainClass": "com.Aixtor.OopsConcepts.CovariantReturnType",
+            "projectName": "Java Basics - Aixtor"
+        },
+        {
+            "type": "java",
+            "name": "ThisKeyword",
+            "request": "launch",
+            "mainClass": "com.Aixtor.OopsConcepts.ThisKeyword",
+            "projectName": "Java Basics - Aixtor"
+        }
+    ]
+}

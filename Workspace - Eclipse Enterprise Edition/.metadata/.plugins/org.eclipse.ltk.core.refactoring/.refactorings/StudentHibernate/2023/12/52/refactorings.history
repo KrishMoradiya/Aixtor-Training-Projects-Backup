@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.Aixtor.Training.StudentHibernate.Student.java&apos; to &apos;StudentTB.java&apos;&#x0D;&#x0A;- Original project: &apos;StudentHibernate&apos;&#x0D;&#x0A;- Original element: &apos;com.Aixtor.Training.StudentHibernate.Student.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Aixtor.Training.StudentHibernate.StudentTB.java&apos;" description="Rename compilation unit &apos;Student.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Aixtor.Training.StudentHibernate{Student.java" name="StudentTB.java" references="false" stamp="1703530122654" version="1.0"/>
+</session>

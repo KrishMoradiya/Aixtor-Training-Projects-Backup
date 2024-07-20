@@ -1,0 +1,45 @@
+package com.Aixtor.Exercise6;
+import com.Aixtor.Exercise6.Program2_BubbleSort;
+import java.util.*;
+class Program3_BinarySearch {
+	private static int getIndexOfElement(int[] arr,int l,int h,int number) {
+		
+		if(l<=h) {
+			int m = (l+h)/2;
+			if(arr[m] == number)
+				return m;
+		}
+		
+		return -1;
+	}
+	public static void main(String[] args) {
+		int[] arr = new int[] {41,82,74,21,47,1,9,900};
+		boolean elementStatus = false;
+		int atElement = -1;
+		
+		
+//		For Sorting
+		Program2_BubbleSort sort = new Program2_BubbleSort();
+		for(int i=0;i<arr.length;i++) {
+			for(int j=i+1;j<arr.length;j++) {
+				sort.swap(arr, i, j);
+			}
+		}
+		for(int i: arr) {
+			System.out.println(i);
+		}
+		
+		{
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter number which search in directories...");
+			int number = sc.nextInt();
+			
+			atElement = getIndexOfElement(arr, 0, arr.length, number);
+			
+			if(elementStatus == true && atElement != -1)
+				System.out.println("Element is present at "+atElement);
+			else
+				System.out.println("Element is not present");
+		}
+	}
+}

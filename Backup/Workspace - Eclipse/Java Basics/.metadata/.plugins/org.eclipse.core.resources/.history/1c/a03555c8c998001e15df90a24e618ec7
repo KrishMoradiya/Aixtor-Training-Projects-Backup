@@ -1,0 +1,20 @@
+package com.Aixtor.Krish_Moradiya.Basics;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		int i;
+		boolean b;
+		float f;
+		short s;
+		byte bt;
+		long l;
+		double d;
+		char c;
+		
+//		System.out.println(i);
+		System.out.println(b);
+		
+	}
+
+}

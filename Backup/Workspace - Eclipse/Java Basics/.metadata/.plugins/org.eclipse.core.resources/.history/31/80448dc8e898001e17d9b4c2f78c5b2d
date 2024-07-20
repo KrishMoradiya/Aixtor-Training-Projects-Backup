@@ -1,0 +1,12 @@
+package com.Aixtor.Exercise6;
+import com.Aixtor.Exercise6;
+class Program3_BinarySearch {
+	public static void main(String[] args) {
+		int[] arr = new int[] {41,35,74,21,10};
+		int l = 0;
+		int h = arr.length-1;
+		int m = arr.length / 2;
+		
+		
+	}
+}

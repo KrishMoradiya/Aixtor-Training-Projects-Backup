@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/krish.moradiya/Desktop/javax.servlet-api-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/krish.moradiya/Desktop/jstl-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/krish.moradiya/Desktop/CRUD_Student Old Libraries/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/krish.moradiya/Desktop/CRUD_Student Old Libraries/jstl-impl.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/krish.moradiya/Desktop/CRUD_Student Old Libraries/jstl-standard.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_202"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/apache-tomcat-10.0.27"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,73 @@
+function signInValidate(){
+	let loginForm = document.loginForm;
+	let username = loginForm.email;
+	let password = loginForm.password;
+	if(username.value == ""){
+		alert("Enter Username...");
+		username.focus();
+		return false
+	}
+	if(password.value == ""){
+		alert("Enter Password...");
+		password.focus();
+		return false
+	}
+}
+
+function editFormValidation(){
+	let editForm = document.editForm;
+	let name = editForm.name;
+	let email = editForm.email;
+	let password = editForm.password;
+	let gender = editForm.gender;
+	let mobile = editForm.mobile;
+	if(name.value == ""){
+		alert("Enter Name...");
+		return false
+	}
+	if(email.value == ""){
+		alert("Enter Email...");
+		return false
+	}
+	if(mobile.value == ""){
+		alert("Enter Mobile Number...");
+		return false
+	}
+	if(gender.value == ""){
+		alert("Enter Gender...");
+		return false
+	}
+	if(password.value == ""){
+		alert("Enter Password...");
+		return false
+	}
+	
+}
+
+function registerFormValidation(){
+	let registerForm = document.registerForm;
+	let name = registerForm.name;
+	let email = registerForm.email;
+	let password = registerForm.password;
+	let gender = registerForm.gender;
+	let mobile = registerForm.mobile;
+	if(name.value === ''){
+		document.getElementById('nameValidation').innerText = 'Please enter a name';
+        return false;
+	}
+	else if(email.value === ''){
+		document.getElementById('emailValidation').innerText = 'Please enter a email';
+		return false
+	}
+	else if(password.value === ''){
+		document.getElementById('passwordValidation').innerText = 'Please enter a password';
+		return false
+	}
+	else if(mobile.value === ''){
+		document.getElementById('mobileValidation').innerText = 'Please enter a mobile';
+		return false
+	}
+	else{		
+		window.location.href = 'Register';
+	}
+}

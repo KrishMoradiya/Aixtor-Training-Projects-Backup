@@ -1,0 +1,14 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Set;
+import java.util.*;
+class TreeSetExample1 {
+	public static void main(String[] args) {
+		Collection<Object> treeLst = new TreeSet<Object>();
+		Collection<Object> treeLst2 = new TreeSet<Object>();
+		
+		treeLst.add(1);
+		treeLst.add(2);
+		treeLst.add(1);
+		treeLst.add(2);
+		System.out.println(treeLst);
+	}
+}

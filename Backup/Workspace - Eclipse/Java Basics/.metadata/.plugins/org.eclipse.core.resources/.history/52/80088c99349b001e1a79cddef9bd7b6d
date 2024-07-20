@@ -1,0 +1,16 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Map;
+import java.util.*;
+class MapExample_Comparing_Descending {
+	public static void main(String[] args) {
+		Map<String,Integer> map = new HashMap<>();
+		map.put("First", 1);
+		map.put("Second", 2);
+		map.put("Third", 3);
+		map.put("Fourth", 4);
+		map.put("Fifth", 5);
+		
+		for(int i = map.size();i>=0;i--) {
+			map.forEach((k,v)->System.out.println("Key is: "+k+" and value is: "+v));
+		}
+	}
+}

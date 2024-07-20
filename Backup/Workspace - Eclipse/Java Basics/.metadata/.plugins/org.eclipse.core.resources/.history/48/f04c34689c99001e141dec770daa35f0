@@ -1,0 +1,10 @@
+package com.Aixtor.Krish_Moradiya.Basics;
+
+class ExitKeyword {
+	public static void main(String[] args) {
+		System.out.println("Code calling Exit()...");
+		{
+			exit(0);
+		}
+	}
+}

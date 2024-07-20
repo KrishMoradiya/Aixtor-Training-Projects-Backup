@@ -1,0 +1,19 @@
+package com.Aixtor.OopsConcepts;
+class A{
+	protected A get() {
+		return this;
+	}
+}
+class B extends A{
+	public B get() {
+		return this;
+	}
+	public void msg() {
+		System.out.println("This is B that extend A...");
+	}
+}
+class CovariantReturnType {
+	public static void main(String[] args) {
+		new B().get().msg();	
+	}
+}

@@ -1,0 +1,27 @@
+package com.Aixtor.OopsConcepts;
+class A{
+	A(){
+		System.out.println("This is A Class Constructor..");
+	}
+	A(A a){
+		System.out.println("This is parameterized constructor...");
+	}
+	private void thisClassMethod() {
+		System.out.println("this is the method of this class...");
+	}
+	private void thisClassMethod(A a) {
+		a = new A(this);
+		System.out.println("this is the method of this class...");
+	}
+	public void ruleOfThis() {
+		System.out.println(this);
+		this.thisClassMethod();
+		this.thisClassMethod(this);
+		System.out.println(this);
+		
+		
+	}
+}
+class ThisKeyword {
+
+}

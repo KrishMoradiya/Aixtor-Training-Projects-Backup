@@ -1,0 +1,9 @@
+package com.Aixtor.Training.Hibernate_ByBeCoder;
+
+public class TBLStudent {
+	private int id;
+	private String studentID;
+	private String name;
+	private String course;
+	private int semester;
+}

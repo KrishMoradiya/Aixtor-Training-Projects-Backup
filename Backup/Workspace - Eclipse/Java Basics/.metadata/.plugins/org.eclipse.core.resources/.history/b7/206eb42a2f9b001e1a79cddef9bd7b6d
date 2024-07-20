@@ -1,0 +1,22 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Map;
+import java.util.*;
+class MapExample1 {
+	public static void main(String[] args) {
+		Map<Integer,String> map = new HashMap<>();
+		map.put(0, "Krish");
+		map.put(1, "Shani");
+		map.put(2, "Keval");
+		map.put(3, "Dev");
+		map.put(4, "Dhruv");
+		
+		Map<Integer,String> map2 = new HashMap<>();
+		map2.putAll(map);
+		
+		System.out.println(map); //First
+		System.out.println(map2);//Second
+		
+		map.putIfAbsent(4, "Nivid"); //THird
+		map.putIfAbsent(5, "Darshan");//Fourth
+		System.out.println(map);
+	}
+}

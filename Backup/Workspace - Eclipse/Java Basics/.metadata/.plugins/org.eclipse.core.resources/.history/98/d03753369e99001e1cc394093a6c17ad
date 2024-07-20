@@ -1,0 +1,23 @@
+package com.Aixtor.OopsConcepts;
+class A{
+	A(){
+		System.out.println("This is A Class..");
+	}
+	private void thisClassMethod() {
+		System.out.println("this is the method of this class...");
+	}
+	private void thisClassMethod(A a) {
+		a = new A();
+		System.out.println("this is the method of this class...");
+	}
+	public void ruleOfThis() {
+		System.out.println(this);
+		this.thisClassMethod();
+		this.thisClassMethod(this);
+		System.out.println(this);
+		
+	}
+}
+class ThisKeyword {
+
+}

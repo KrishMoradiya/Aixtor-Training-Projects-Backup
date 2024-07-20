@@ -1,0 +1,7 @@
+package com.Aixtor.Krish_Moradiya.Collection_Framework.Set;
+
+class HashSet {
+	public static void main(String[] args) {
+		
+	}
+}

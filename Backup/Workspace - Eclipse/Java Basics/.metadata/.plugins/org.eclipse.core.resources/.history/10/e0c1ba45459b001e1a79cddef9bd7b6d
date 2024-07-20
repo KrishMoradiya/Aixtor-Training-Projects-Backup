@@ -1,0 +1,9 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Map;
+import java.util.*;
+import com.Aixtor.Training.Java.Krish_Moradiya.Classes.Student;
+class TreeMapExample {
+	public static void main(String[] args) {
+		Map<Integer,Student> map = new TreeMap<Integer,Student>();
+		
+	}
+}

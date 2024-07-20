@@ -1,0 +1,7 @@
+package com.Aixtor.Exercise7;
+
+class Program3_BinarySearch {
+	public static void main(String[] args) {
+		int[] arr = new int[] {41,35,74,21,10};
+	}
+}

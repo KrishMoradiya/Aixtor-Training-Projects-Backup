@@ -1,0 +1,13 @@
+package com.Aixtor.Krish_Moradiya.OtherDemoes;
+
+import java.io.PrintStream;
+import java.io.*;
+import java.lang.*;
+class SystemClassDemo {
+	public static void main(String[] args) {
+		System s1 = System;
+		Class c1 = 
+		
+		String s1 = System.out.getClass().getName();
+	}
+}

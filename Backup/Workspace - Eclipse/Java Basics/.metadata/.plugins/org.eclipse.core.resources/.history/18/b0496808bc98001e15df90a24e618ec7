@@ -1,0 +1,11 @@
+package com.Aixtor.Krish_Moradiya.OtherDemoes;
+
+import java.io.PrintStream;
+import java.io;
+
+class SystemClassDemo {
+	public static void main(String[] args) {
+		Class c1 = 
+		PrintStream p1 = System.out;
+	}
+}

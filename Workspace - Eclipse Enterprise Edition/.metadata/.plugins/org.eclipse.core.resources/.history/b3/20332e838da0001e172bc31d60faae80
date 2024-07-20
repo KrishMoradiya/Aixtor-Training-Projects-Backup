@@ -1,0 +1,10 @@
+function validate(){
+	let loginForm = document.loginForm;
+	let username = loginForm.email;
+	let password = loginForm.password;
+	if(username.value == ""){
+		alert("Enter Username...");
+		username.focus();
+		return false
+	}
+}

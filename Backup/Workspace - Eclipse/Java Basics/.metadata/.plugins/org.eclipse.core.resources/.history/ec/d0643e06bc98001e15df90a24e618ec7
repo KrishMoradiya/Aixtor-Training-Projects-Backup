@@ -1,0 +1,7 @@
+package com.Aixtor.Krish_Moradiya.OtherDemoes;
+
+class SystemClassDemo {
+	public static void main(String[] args) {
+		Class c1 = System.
+	}
+}

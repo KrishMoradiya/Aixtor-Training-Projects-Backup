@@ -1,0 +1,5 @@
+package com.Classes;
+
+public class AuthUser {
+	static int authUser = 0;
+}

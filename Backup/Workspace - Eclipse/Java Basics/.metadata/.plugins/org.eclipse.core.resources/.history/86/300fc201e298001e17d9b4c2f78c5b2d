@@ -1,0 +1,13 @@
+package com.Aixtor.Exercise7;
+
+import java.util.*;
+
+class Program1_Palindrome {
+	public static void main(String[] args) {
+		int number;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number:");
+		number = sc.nextInt();
+	}
+}

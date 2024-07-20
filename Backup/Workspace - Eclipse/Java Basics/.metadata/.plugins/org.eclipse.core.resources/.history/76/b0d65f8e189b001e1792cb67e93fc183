@@ -1,0 +1,7 @@
+package com.Aixtor.Training.Java.Krish_Moradiya;
+
+public class Print_Statement {
+	public static void main(String[] args) {
+		System.out.println("This is printing statement...");
+	}
+}

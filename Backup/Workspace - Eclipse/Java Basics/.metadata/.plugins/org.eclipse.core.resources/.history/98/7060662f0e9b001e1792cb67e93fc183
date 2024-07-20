@@ -1,0 +1,7 @@
+package com.Aixtor.Dec_15;
+import java.util.*;
+class ComparatorCollection {
+	public static void main(String[] args) {
+		List<Integer> lst = new ArrayList<Integer>();
+	}
+}

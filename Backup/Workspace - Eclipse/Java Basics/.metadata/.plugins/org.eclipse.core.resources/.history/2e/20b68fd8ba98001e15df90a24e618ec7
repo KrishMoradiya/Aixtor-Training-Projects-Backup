@@ -1,0 +1,7 @@
+package com.Aixtor.Krish_Moradiya.Basics;
+
+class Comments {
+	public static void main(String[] args) {
+		System.out.println("Java has single line comment and that is defined using // marker...");
+	}
+}

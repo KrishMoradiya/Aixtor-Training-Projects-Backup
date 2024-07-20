@@ -1,0 +1,5 @@
+function validate(){
+	let loginForm = document.loginForm;
+	let username = loginForm.email.value;
+	let password = loginForm.password.value;
+}

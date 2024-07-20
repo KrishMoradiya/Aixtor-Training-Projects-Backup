@@ -1,0 +1,5 @@
+package com.Aixtor.Training.StudentHibernate;
+
+public class Student {
+
+}

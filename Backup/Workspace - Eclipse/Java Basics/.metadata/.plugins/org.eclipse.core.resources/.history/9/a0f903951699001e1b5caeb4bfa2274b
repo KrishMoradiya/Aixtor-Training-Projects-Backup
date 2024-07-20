@@ -1,0 +1,7 @@
+package com.Aixtor.Exercise6;
+
+class Program5_DuplicateArrayElement {
+	public static void main(String[] args) {
+		
+	}
+}

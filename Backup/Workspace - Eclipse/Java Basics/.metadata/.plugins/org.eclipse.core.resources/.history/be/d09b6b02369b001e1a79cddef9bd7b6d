@@ -1,0 +1,17 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Map;
+import java.util.*;
+class MapExample_Comparing_Descending {
+	public static void main(String[] args) {
+		Map<String,Integer> map = new TreeMap<>();
+		map.put("First", 1);
+		map.put("Second", 2);
+		map.put("Third", 3);
+		map.put("Fourth", 4);
+		map.put("Fifth", 5);
+		
+		map.forEach((k,v)->System.out.println("Key is: "+k+" and value is: "+v));
+		
+		map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
+		
+	}
+}

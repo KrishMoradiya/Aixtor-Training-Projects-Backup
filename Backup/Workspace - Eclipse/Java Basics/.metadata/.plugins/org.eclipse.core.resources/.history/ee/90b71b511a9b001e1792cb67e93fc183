@@ -1,0 +1,8 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Set;
+import java.util.*;
+class HashSetExample1 {
+	public static void main(String[] args) {
+		Set<String> setLst = new HashSetExample1();
+		
+	}
+}

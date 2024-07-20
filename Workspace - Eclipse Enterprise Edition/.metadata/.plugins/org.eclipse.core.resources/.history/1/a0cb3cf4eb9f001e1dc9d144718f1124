@@ -1,0 +1,2 @@
+if(document.getElementById("gender").value == "Male")
+	document.getElementById("male").checked = true;

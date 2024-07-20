@@ -1,0 +1,2 @@
+if(document.getElementById("gender") == "Male")
+	document.getElementById("male").check

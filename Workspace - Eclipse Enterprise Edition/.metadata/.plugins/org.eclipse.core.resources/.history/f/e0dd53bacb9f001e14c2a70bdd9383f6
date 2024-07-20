@@ -1,0 +1,28 @@
+
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.sql.ResultSet;
+
+@WebServlet("/GetStudentData")
+public class GetStudentData extends HttpServlet {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+			
+			DBClass db = new DBClass();
+			ResultSet rs = db.getData("select * from studentdata");
+			rs.next();
+			request.setAttribute("studentData", rs);
+			RequestDispatcher rd = request.getRequestDispatcher("StudentData.jsp");
+			rd.forward(request, response);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+
+}

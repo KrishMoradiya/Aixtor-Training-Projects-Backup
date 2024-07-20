@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:JavaEE_Demo1" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Students" serverId="apache-tomcat-10.1.15(New Tomcat)"/>
+  <module moduleId="org.eclipse.jst.jee.server:Java_EE_CRUD_Demo1" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CRUD_Student" serverId="apache-tomcat-10.1.15(New Tomcat)"/>
+</modules>

@@ -1,0 +1,15 @@
+package com.Aixtor.Krish_Moradiya.Basics;
+
+class OperatorPrecedence {
+	public static void main(String[] args) {
+		int a = 25;
+		int b = 5;
+		System.out.println( 25 + 5 - (10-5));
+		System.out.println( 25 + b++ - 10 - 5 );
+		b--;
+		System.out.println( 25 + ++b - 10 - 5 );
+		b--;
+		System.out.println( 25 + 5 - (10-5));
+		System.out.println( 25 + 5 - (10-5));
+	}
+}

@@ -1,0 +1,12 @@
+package com.Aixtor.Training.Java.Krish_Moradiya.Collection_Framework.Set;
+import com.Aixtor.Training.Java.Krish_Moradiya.Classes.Student;
+import java.util.*;
+class HashSetExample_Student {
+	public static void main(String[] args) {
+		Set<Student> stud = new HashSet<>();
+		
+		Student s1 = new Student();
+		s1.setValues();
+		System.out.println(s1.toString());
+	}
+}
